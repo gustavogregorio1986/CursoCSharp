@@ -13,6 +13,7 @@ namespace CursoCSharp
                 {"Primeiro Programa - Fundamentos", () => PrimeiroPrograma.Executar()},
                 {"Comentarios - Fundamentos", () => Comentarios.Executar()}, // Passando um valor de exemplo
                 {"Variaveis e Constantes - Fundamentos", () => VariaveisEConstantes.Executar()}, 
+                {"Inferencia - Fundamentos", () => Inferencia.Executar()},
             });
 
             central.SelecionarEExecutar();
