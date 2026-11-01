@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CursoCSharp.Fundamentos
 {
-    public class Intwerpolacao
+    public class Interpolacao
     {
         public static void Executar()
         {
