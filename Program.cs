@@ -12,6 +12,7 @@ namespace CursoCSharp
                 // Usando uma expressão lambda para adiar a execução até a seleção
                 {"Primeiro Programa - Fundamentos", () => PrimeiroPrograma.Executar()},
                 {"Comentarios - Fundamentos", () => Comentarios.Executar()}, // Passando um valor de exemplo
+                {"Variaveis e Constantes - Fundamentos", () => VariaveisEConstantes.Executar()}, 
             });
 
             central.SelecionarEExecutar();
