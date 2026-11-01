@@ -34,6 +34,17 @@ namespace CursoCSharp.Fundamentos
             Console.WriteLine("Resultado {0}", numero);
 
 
+
+
+
+
+
+
+
+
+
+
+
             Console.WriteLine("Digite o segundo número: ");
             int.TryParse(Console.ReadLine(), out int numero2);
             Console.WriteLine("Resultado {0}", numero2);
