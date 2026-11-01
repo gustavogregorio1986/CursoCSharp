@@ -14,6 +14,7 @@ namespace CursoCSharp
                 {"Comentarios - Fundamentos", () => Comentarios.Executar()}, // Passando um valor de exemplo
                 {"Variaveis e Constantes - Fundamentos", () => VariaveisEConstantes.Executar()}, 
                 {"Inferencia - Fundamentos", () => Inferencia.Executar()},
+                {"Interpolacao - Fundamentos", () => Intwerpolacao.Executar()},
             });
 
             central.SelecionarEExecutar();
