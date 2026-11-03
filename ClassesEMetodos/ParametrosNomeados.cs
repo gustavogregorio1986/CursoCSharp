@@ -17,6 +17,6 @@ namespace CursoCSharp.ClassesEMetodos
         {
             Executar(dia: 1, mes: 6, ano: 1996);
         }
-        }
+        
     }
 }
