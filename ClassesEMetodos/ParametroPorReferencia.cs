@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CursoCSharp.ClassesEMetodos
 {
-    public class ValorVsReferencia
+    public class ParametroPorReferencia
     {
         public static void Executar()
         {
