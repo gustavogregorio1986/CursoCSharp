@@ -65,7 +65,9 @@ namespace CursoCSharp
                 {"Igualdade - Coleções", Igualdade.Executar},
                 {"Stack - Coleções", ColecoesStack.Executar},
                 {"Stack - Coleções", ColecoesStack.Executar},
-                {"Dictionary - Coleções", ColecoiesDictionary.Executar
+                
+                //Orientação a Objetos OO
+                {"OO - Heranca", Heranca.Executar }
 
             });
 
