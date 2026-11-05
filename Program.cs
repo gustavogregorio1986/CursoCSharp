@@ -5,6 +5,8 @@ using CursoCSharp.EstruturaDeControle;
 using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.Colecoes;
 using Array = CursoCSharp.Colecoes.Array;
+using System.Data;
+using CursoCSharp.OO;
 
 namespace CursoCSharp
 {
@@ -67,7 +69,8 @@ namespace CursoCSharp
                 {"Stack - Coleções", ColecoesStack.Executar},
                 
                 //Orientação a Objetos OO
-                {"OO - Heranca", Heranca.Executar }
+                {"OO - Heranca", Heranca.Executar },
+                {"OO - Construtor This", ConstrutorThis.Executar },
 
             });
 
