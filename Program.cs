@@ -14,11 +14,11 @@ namespace CursoCSharp
     {
         static void Main(string[] args)
         {
-            var central = new CentralDeExercicios(new Dictionary<string, Action>() {
-                // Fundamentos
+            var central = new CentralDeExercicios(new Dictionary<string, Action>()
+            {
                 {"Primeiro Programa - Fundamentos", PrimeiroPrograma.Executar},
-                {"Comentarios - Fundamentos", Comentarios.Executar}, // Passando um valor de exemplo
-                {"Variaveis e Constantes - Fundamentos",  VariaveisEConstantes.Executar}, 
+                {"Comentarios - Fundamentos", Comentarios.Executar},
+                {"Variaveis e Constantes - Fundamentos",  VariaveisEConstantes.Executar},
                 {"Inferencia - Fundamentos",  Inferencia.Executar},
                 {"Interpolacao - Fundamentos",  Interpolacao.Executar},
                 {"Notação Ponto - Fundamentos", NotacaoPonto.Executar},
@@ -30,19 +30,20 @@ namespace CursoCSharp
                 {"Operadores Lógicos - Fundamentos",  OperadoresLogico.Executar},
                 {"Operadores de Atribuicoes - Fundamentos",  OperadoresAtribuicao.Executar},
                 {"Operadores Unarios - Fundamentos", OperadoresUnarios.Executar}, 
-                //Estruturas de Controle
+
+                // Estruturas de Controle
                 {"Estrutura If - Estruturas de Controle", EstruturaIf.Executar},
                 {"Estrutura If Else - Estruturas de Controle",  EstruturaIfElse.Executar},
                 {"Estrutura If Else If - Estruturas de Controle",  EstruturaIfElseIf.Executar},
                 {"Estrutura Switch - Estruturas de Controle",  EstruturaSwitch.Executar},
                 {"Estrutura Do While - Estruturas de Controle",  EstruturaDoWhile.Executar},
-                {"Estrutura Do For - Estruturas de Controle",  EstruturaFor.Executar},
-                {"Estrutura Do For Each - Estruturas de Controle", EstruturaForEach.Executar},
+                {"Estrutura For - Estruturas de Controle",  EstruturaFor.Executar},
+                {"Estrutura ForEach - Estruturas de Controle", EstruturaForEach.Executar},
                 {"Usando Break - Estruturas de Controle", UsandoBreak.Executar},
                 {"Usando Continue - Estruturas de Controle", () => UsandoContinue.Executar()},
 
-                //Classes e Metodos
-                {"Membros - Classes e Métodos", membros.Executar}, 
+                // Classes e Metodos
+                {"Membros - Classes e Métodos", membros.Executar},
                 {"Construtores - Classes e Métodos", Construtores.Executar},
                 {"Métodos com Retorno - Classes e Métodos",  MetodosComRetorno.Executar},
                 {"Métodos Estaticos - Classes e Métodos",  MetodosEstaticos.Executar},
@@ -58,7 +59,7 @@ namespace CursoCSharp
                 {"Struct Vs Classe - Classes e Métodos",  StructVsClasse.Executar},
                 {"Valor Vs Referência - Classes e Métodos",  ParametroPorReferencia.Executar},
 
-                //Coleções
+                // Coleções
                 {"Array - Coleções", Array.Executar},
                 {"List - Coleções", ColecoesList.Executar},
                 {"ArrayList - Coleções", ColecoesArrayList.Executar},
@@ -66,12 +67,11 @@ namespace CursoCSharp
                 {"Queue - Coleções", ColecoesQueue.Executar},
                 {"Igualdade - Coleções", Igualdade.Executar},
                 {"Stack - Coleções", ColecoesStack.Executar},
-                {"Stack - Coleções", ColecoesStack.Executar},
                 
-                //Orientação a Objetos OO
+                // Orientação a Objetos OO
                 {"OO - Heranca", Heranca.Executar },
                 {"OO - Construtor This", ConstrutorThis.Executar },
-
+                {"OO - Encapsulamento", OO.Encapsulamento.Executar },
             });
 
             central.SelecionarEExecutar();
