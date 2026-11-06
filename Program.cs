@@ -79,7 +79,8 @@ namespace CursoCSharp
                 {"OO - Selead", Sealed.Executar },
                 
                 //Metodos & Labda
-                {"OO - Exemplo", ExemploLabda.Executar },
+                {"Exemplo Metodos & Labda", ExemploLabda.Executar },
+                {"OO - Lambdas com delegate - Metodos & Labda", LambdaDelegate.Executar },
             });
 
             central.SelecionarEExecutar();
