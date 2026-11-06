@@ -84,6 +84,7 @@ namespace CursoCSharp
                 {"usando Delegates - Metodos & Labda", UsandoDelegates.Executar },
                 {"Delegate Fun Anonima - Metodos & Labda", DelegateFunAnonima.Executar },
                 {"Delegate Com Parametros - Metodos & Labda", DelegateComParamtros.Executar },
+                {"Metodo de Extensao - Metodos & Labda", MetodosDeExtensao.Executar },
             });
 
             central.SelecionarEExecutar();
