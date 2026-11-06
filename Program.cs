@@ -80,7 +80,8 @@ namespace CursoCSharp
                 
                 //Metodos & Labda
                 {"Exemplo Metodos & Labda", ExemploLabda.Executar },
-                {"OO - Lambdas com delegate - Metodos & Labda", LambdaDelegate.Executar },
+                {"Lambdas com delegate - Metodos & Labda", LambdaDelegate.Executar },
+                {"usando Delegates - Metodos & Labda", UsandoDelegates.Executar },
             });
 
             central.SelecionarEExecutar();
