@@ -73,6 +73,7 @@ namespace CursoCSharp
                 {"OO - Construtor This", ConstrutorThis.Executar },
                 {"OO - Encapsulamento", OO.Encapsulamento.Executar },
                 {"OO - Polimorfismo", Polimorfismo.Executar },
+                {"OO - Abstract", Abstract.Executar },
             });
 
             central.SelecionarEExecutar();
