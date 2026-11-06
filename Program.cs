@@ -7,6 +7,7 @@ using CursoCSharp.Colecoes;
 using Array = CursoCSharp.Colecoes.Array;
 using System.Data;
 using CursoCSharp.OO;
+using CursoCSharp.MetodosEFuncoes;
 
 namespace CursoCSharp
 {
@@ -76,6 +77,9 @@ namespace CursoCSharp
                 {"OO - Abstract", Abstract.Executar },
                 {"OO - Interface", Interface.Executar },
                 {"OO - Selead", Sealed.Executar },
+                
+                //Metodos & Labda
+                {"OO - Exemplo", ExemploLabda.Executar },
             });
 
             central.SelecionarEExecutar();
