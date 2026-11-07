@@ -9,6 +9,7 @@ using System.Data;
 using CursoCSharp.OO;
 using CursoCSharp.MetodosEFuncoes;
 using CursoCSharp.Excessoes;
+using CursoCSharp.Api;
 
 namespace CursoCSharp
 {
@@ -86,8 +87,13 @@ namespace CursoCSharp
                 {"Delegate Fun Anonima - Metodos & Labda", DelegateFunAnonima.Executar },
                 {"Delegate Com Parametros - Metodos & Labda", DelegateComParamtros.Executar },
                 {"Metodo de Extensao - Metodos & Labda", MetodosDeExtensao.Executar },
+                
+                //Excessoes
                 {"Primeira Excecao - Metodos & Labda", PrimeiraExcecao.Executar },
                 {"Excessoes Personalizadas - Metodos & Labda", ExcessoesPersonalizadas.Executar },
+                
+                // Api
+                {"Primeiro Arquivo - Usando a Api", PrimeiroArquivo.Executar },
             });
 
             central.SelecionarEExecutar();
