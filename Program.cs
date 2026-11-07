@@ -8,6 +8,7 @@ using Array = CursoCSharp.Colecoes.Array;
 using System.Data;
 using CursoCSharp.OO;
 using CursoCSharp.MetodosEFuncoes;
+using CursoCSharp.Excessoes;
 
 namespace CursoCSharp
 {
@@ -85,6 +86,7 @@ namespace CursoCSharp
                 {"Delegate Fun Anonima - Metodos & Labda", DelegateFunAnonima.Executar },
                 {"Delegate Com Parametros - Metodos & Labda", DelegateComParamtros.Executar },
                 {"Metodo de Extensao - Metodos & Labda", MetodosDeExtensao.Executar },
+                {"Primeira Excecao - Metodos & Labda", PrimeiraExcecao.Executar },
             });
 
             central.SelecionarEExecutar();
