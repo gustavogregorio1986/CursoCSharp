@@ -87,6 +87,7 @@ namespace CursoCSharp
                 {"Delegate Com Parametros - Metodos & Labda", DelegateComParamtros.Executar },
                 {"Metodo de Extensao - Metodos & Labda", MetodosDeExtensao.Executar },
                 {"Primeira Excecao - Metodos & Labda", PrimeiraExcecao.Executar },
+                {"Excessoes Personalizadas - Metodos & Labda", ExcessoesPersonalizadas.Executar },
             });
 
             central.SelecionarEExecutar();
