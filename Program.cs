@@ -97,8 +97,9 @@ namespace CursoCSharp
                 {"Primeiro Arquivo - Usando a Api", PrimeiroArquivo.Executar },
                 
                 //Topicos Avançados
-                {"LINQ #01 - Tóícos Avanmçados", LIINQ1.Executar },
-                {"LINQ #02 - Tóícos Avanmçados", LINQ2.Executar },
+                {"LINQ #01 - Tópícos Avanmçados", LIINQ1.Executar },
+                {"LINQ #02 - Tópícos Avanmçados", LINQ2.Executar },
+                {"Nullables - Tópícos Avanmçados", Nullables.Executar },
             });
 
             central.SelecionarEExecutar();
