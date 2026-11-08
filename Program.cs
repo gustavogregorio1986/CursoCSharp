@@ -10,6 +10,7 @@ using CursoCSharp.OO;
 using CursoCSharp.MetodosEFuncoes;
 using CursoCSharp.Excessoes;
 using CursoCSharp.Api;
+using CursoCSharp.TopicosAvancados;
 
 namespace CursoCSharp
 {
@@ -94,6 +95,10 @@ namespace CursoCSharp
                 
                 // Api
                 {"Primeiro Arquivo - Usando a Api", PrimeiroArquivo.Executar },
+                
+                //Topicos Avançados
+                {"LINQ #01 - Tóícos Avanmçados", LIINQ1.Executar },
+                {"LINQ #02 - Tóícos Avanmçados", LINQ2.Executar },
             });
 
             central.SelecionarEExecutar();
